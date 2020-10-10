@@ -56,3 +56,6 @@ $ sudo snap install nextcloud
 The above command will install NEXTCLOUD on server completely. Now you will be able to access the the nextcloud using browser (by IP or ifdomain is already connected then by domain)
 
 
+Now lets enable lets-encrypt (SSL certificate)
+sudo nextcloud.enable-https lets-encrypt
+
